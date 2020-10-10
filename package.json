@@ -1,0 +1,17 @@
+{
+  "name": "cas-server",
+  "version": "1.0.0",
+  "description": "cas static server",
+  "main": "index.js",
+  "author": "scleo",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "thymeleaf": "^0.20.1"
+  }
+}
